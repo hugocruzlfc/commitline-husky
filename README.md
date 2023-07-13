@@ -2,7 +2,9 @@
 
 npm i -D @commitlint/{cli,config-conventional}
 
-# Create a .commitlintrc.json file
+# Crea un archivo commitlint.config.js en la raiz del proyecto con el siguiente contenido:
+
+module.exports = {extends: ['@commitlint/config-conventional']}
 
 # Instalación de Husky
 
